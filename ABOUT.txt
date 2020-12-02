@@ -1,0 +1,20 @@
+Created 12/2/2020 by Petr Dědic. Build fully working on every web browser engine and browsers itself.
+
+Start the application by opening "index.html".
+Chromium/Chrome (28+) - Blink
+Firefox - Gecko ( - Waterfox, Light, Tor Browser atd..)
+Internet Explorer - Trident
+Opera (15+) - Blink
+Safari - Webkit
+Edge - EdgeHTML / Chromium
+
+Software used: Microsoft Visual Studio Code:
+
+Version: 1.51.1 (user setup)
+Commit: e5a624b788d92b8d34d1392e4c4d9789406efe8f
+Date: 2020-11-10T23:34:32.027Z
+Electron: 9.3.3
+Chrome: 83.0.4103.122
+Node.js: 12.14.1
+V8: 8.3.110.13-electron.0
+OS: Windows_NT x64 10.0.18363

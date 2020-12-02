@@ -1,0 +1,123 @@
+@font-face {
+  font-family: Anke;
+  src: url(./Anke/Anke.otf);
+}
+
+:root {
+  font-family: Anke;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100vw;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+  /* Add the ability to scroll */
+  margin: 0;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+
+  background-image: linear-gradient(
+    140deg,
+    #131313 0%,
+    #181818 50%,
+    #1a1a1a 100%
+  );
+}
+/* Hide scrollbar for every Chromium based browser/app */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar {
+    overflow: hidden;
+    display: flex;
+    float: none;
+    margin: 0;
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 6.5vh;
+    font-size: 5vh;
+    text-align: left;
+    background-color: black;
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 2.5vh;
+    background-color: black;
+}
+
+a:hover {
+    background-color: gray;
+    transition: 500ms;
+}
+
+h1 {
+    margin-top: 10vh;
+    margin-left: 10vw;
+    font-size: 15vh;
+}
+
+table {
+    width: 80vw;
+    margin: 10vw;
+    border-spacing: 0;
+    margin-bottom: 2vw;
+}
+
+td {
+    border: 1px solid white;
+    width: 60vw;
+    height: 5vw;
+    text-align: center;
+    background-color: #1db954;
+    cursor: pointer;
+}
+
+.double-left {
+    border-right: 0;
+    background-color: #078533;
+}
+
+.double-right {
+    border-left: 0;
+    background-color: #078533;
+}
+
+button {
+    height: 5vh;
+    font-family: Anke;
+    border: 3px black solid;
+    border-radius: 5px;
+}
+
+#reset {
+    margin-left: 11vw;
+    margin-bottom: 3vw;
+    width: 38vw;
+    background-color: crimson;
+}
+
+#empty {
+    width: 38vw;
+    margin-left: 2vw;
+    background-color: gray;
+}

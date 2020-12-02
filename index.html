@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Ticket Portal</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .occupied {
+            background-color: crimson;
+        }
+    </style>
+    <script src="./js.js"></script>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="#overlook">Overlook</a>
+      <a href="#avaiable">Available seats</a>
+    </div>
+
+    <h1 id="overlook">Seats overlook</h1>
+
+    <div>
+      <table>
+        <tbody>
+            <tr id="avaiable">
+                <td style="background-color: inherit; border: none; cursor: default;" colspan="10"></td>
+            </tr>
+        <tr>
+            <td style="background-color: grey; cursor: default;" colspan="10">Screen</td>
+        </tr>
+        <tr>
+            <td style="background-color: inherit; border: none; cursor: default;" colspan="10"></td>
+        </tr>
+          <tr>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">1</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">2</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">3</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">4</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">5</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">6</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">7</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">8</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">9</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">10</td>
+          </tr>
+          <tr>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">11</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">12</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">13</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">14</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">15</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">16</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">17</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">18</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">19</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">20</td>
+          </tr>
+          <tr>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">21</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">22</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">23</td>
+            <td  class="double-left"class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">24</td>
+            <td  class="double-right" class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">25</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">26</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">27</td>
+            <td  class="double-left"class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">28</td>
+            <td  class="double-right" class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">29</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">30</td>
+          </tr>
+          <tr>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">31</td>
+            <td  class="double-left" class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">32</td>
+            <td  class="double-right" class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">33</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">34</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">35</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">36</td>
+            <td  class="double-left" class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">37</td>
+            <td  class="double-right" class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">38</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">39</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">40</td>
+          </tr>
+          <tr>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">41</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">42</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">43</td>
+            <td class="double-left" class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">44</td>
+            <td class="double-right" class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">45</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">46</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">47</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">48</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">49</td>
+            <td class="nobody" onclick="this.style.backgroundColor = 'crimson'; this.classList.add('occupied'); this.classList.remove('nobody')" = 'crimson';">50</td>
+          </tr>
+        </tbody>
+      </table>
+      <button id="reset" onClick="window.location.reload();">Reset overlook</button>
+      <button id="empty" onClick="myFunction();">Occupied seats</button>
+    </div>
+  </body>
+</html>
